@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>bootstrap Store</title>
+    <!-- css cdn -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <p class="navbar-brand fw-bold">MyStore</p>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navMenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navMenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="login.html">Login</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="signup.html">Signup</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="bg-dark text-white text-center p-5">
+      <h1 class="display-5 fw-bold">Latest Electronics & Gadgets</h1>
+      <p>
+        Best mobile accessories, smartwatches & laptops at unbeatable prices!
+      </p>
+      <a href="#" class="btn btn-warning btn-lg">Shop Now</a>
+    </section>
+
+    <!-- Products & Sidebar -->
+    <div class="container my-5">
+      <div class="row">
+        <!-- Sidebar Categories -->
+        <div class="dropdown col-lg-3 mb-4">
+          <button
+            class="btn btn-dark dropdown-toggle"
+            type="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            Categories
+          </button>
+
+          <ul class="dropdown-menu">
+            <li>
+              <a class="dropdown-item" href="./sub-folder/mobile.html"
+                >Mobile's</a
+              >
+            </li>
+            <li>
+              <a class="dropdown-item" href="./sub-folder/laptop.html"
+                >Laptop's</a
+              >
+            </li>
+            <li>
+              <a class="dropdown-item" href="./sub-folder/watch.html"
+                >Smart Watches</a
+              >
+            </li>
+            <li>
+              <a class="dropdown-item" href="./sub-folder/wirelesshp.html"
+                >Headphones</a
+              >
+            </li>
+            <li>
+              <a class="dropdown-item" href="./sub-folder/chargers&cables.html"
+                >Chargers & Cables</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <!-- Products -->
+        <div class="col-lg-9">
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card h-100">
+                <img
+                  src="./images/wireless headphone.jfif"
+                  alt="headphone image"
+                  class="card-img-top"
+                />
+                <div class="card-body text-center">
+                  <h6 class="card-title">Wireless Headphone</h6>
+                  <p class="text-muted">Rs 5000</p>
+                  <a href="#" class="btn btn-dark w-100">View</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img
+                  src="./images/watch.jfif"
+                  alt="watch image"
+                  class="card-img-top"
+                />
+                <div class="card-body text-center">
+                  <h6 class="card-title">Smart Watch</h6>
+                  <p class="text-muted">Rs 6,000</p>
+                  <a href="#" class="btn btn-dark w-100">View</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img
+                  src="./images/laptop.jfif"
+                  alt="laptop image"
+                  class="card-img-top"
+                />
+                <div class="card-body text-center">
+                  <h6 class="card-title">Laptop</h6>
+                  <p class="text-muted">Rs 80,000</p>
+                  <a href="#" class="btn btn-dark w-100">View</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img
+                  src="./images/nm4.jfif"
+                  alt="mobile image"
+                  class="card-img-top"
+                />
+                <div class="card-body text-center">
+                  <h6 class="card-title">Mobile</h6>
+                  <p class="text-muted">60,000</p>
+                  <a href="#" class="btn btn-dark w-100">View</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img
+                  src="./images/cc.jfif"
+                  alt="charger&cable image"
+                  class="card-img-top"
+                />
+                <div class="card-body text-center">
+                  <h6 class="card-title">Charger & Cables</h6>
+                  <p class="text-muted">1000</p>
+                  <a href="#" class="btn btn-dark w-100">View</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img
+                  src="./images/cc11.jfif"
+                  alt="Charger & Cables"
+                  class="card-img-top"
+                />
+                <div class="card-body text-center">
+                  <h6 class="card-title">Charger & Cables</h6>
+                  <p class="text-muted">1000</p>
+                  <a href="#" class="btn btn-dark w-100">View</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+      © 2025 MyStore. All rights reserved.
+    </footer>
+
+    <!-- js cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
