@@ -6,7 +6,7 @@ The project is designed for beginners to understand layout structure, components
 Features
 - Responsive Navbar
 - Home, About, Contact pages
-- Login & Signup pages with validation
+- Login & Signup pages
 - Product listing section
 - Categories sidebar
 - FAQ section
